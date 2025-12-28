@@ -35,7 +35,7 @@ async function registerFCM(){
   const perm=await Notification.requestPermission();
   if(perm!=='granted')return;
   const token=await messaging.getToken({vapidKey:VAPID_KEY});
-  await fetch(API_URL,{method:'POST',body:JSON.stringify({action:'registerToken',user:userId,token})});
+  await fetch(APP_URL,{method:'POST',body:JSON.stringify({action:'registerToken',user:userId,token})});
 }
 
 const App={
@@ -56,7 +56,7 @@ const App={
   console.log("Confirm clicked", userId, window._invite);
 
   if (!APP_URL) {
-    alert("API_URL missing");
+    alert("APP_URL missing");
     return;
   }
 
