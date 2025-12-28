@@ -1,0 +1,14 @@
+body{margin:0;font-family:system-ui,sans-serif;background:#f6f7fb}
+#app{max-width:420px;margin:auto;height:100vh;background:#fff;display:flex;flex-direction:column}
+.header{background:#ff4d6d;color:#fff;padding:14px;text-align:center;font-weight:600}
+.page{display:none;flex:1;padding:20px}
+.page.active{display:block}
+button{width:100%;padding:14px;border-radius:12px;border:none;background:#ff4d6d;color:#fff;margin-bottom:10px}
+.secondary{background:#eee;color:#333}
+.chat{display:flex;flex-direction:column}
+#messages{flex:1;overflow-y:auto}
+.msg{padding:10px 14px;margin-bottom:6px;border-radius:12px;max-width:75%}
+.me{background:#ff4d6d;color:#fff;margin-left:auto}
+.them{background:#eee}
+.input{display:flex;gap:6px}
+.input input{flex:1;padding:12px}
