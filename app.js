@@ -1,7 +1,7 @@
 /************************************************************
  * CONFIG – FILL THESE VALUES ONCE
  ************************************************************/
-const API_URL = "https://script.google.com/macros/s/AKfycbwAFWjCO-YO7G05yww1Z0lrxYfYZk2qxY8YG00f2hmIuZzr-bC-QnRRiFMHrHhbj-Ey/exec";
+const API_URL = "https://script.google.com/macros/s/AKfycbxe-i3IZnz-W0I6oihOGr4q9tMQzLn7-JktIQnUGIPJnh8McCGmFLq4J6dxPAeLI3Vi/exec";
 
 const firebaseConfig = {
 
